@@ -1,0 +1,16 @@
+{
+  "name": "interview-questions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thegostep/interview.git",
+  "author": "<thegostep@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "ganache": "yarn ganache-cli -d",
+    "test": "yarn truffle test"
+  },
+  "devDependencies": {
+    "ganache-cli": "6.4.1",
+    "truffle": "5.0.7"
+  }
+}
